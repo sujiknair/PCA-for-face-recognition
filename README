@@ -1,14 +1,15 @@
-Principal Component Analysis (PCA) is a classical approach for dimensionality reduction. 
-There are different kinds of PCA. Aim of this project is to build a library of different 
-PCA approaches, and formulate a better solution for recognition problem. The PCA techniques
-called classical PCA, two dimensional PCA (2dPCA),SIMPCA and FLPCA are implemented. The code
-is not complete. Need to implement the functions for recognition/classification using neural 
-network and some modification of the code. And then have to do the performance measurements.
+Principal Component Analysis (PCA) is a classical approach for dimensionality
+reduction. There are different kinds of PCA. Aim of this project is to build 
+a library of different PCA approaches, and formulate a better solution for 
+recognition problem. The PCA techniques called classical PCA, two dimensional
+PCA (2dPCA),SIMPCA and FLPCA are implemented. The code is not complete. Need 
+to implement the functions for recognition/classification using neural network 
+and some modification of the code. And then have to do the performance measurements.
    
-   Here the images from ORL face database is used for training and testing. I have written 
-the path to each train images in a file called "train.txt", and the test images in another 
-file called "test.txt". The size of the image also fixed, to make the uniformity among images 
-(both test and train). The application program, which calls these functions, have to adjust the 
-size and type (gray scale) of the image.
+   Here the images from ORL face database is used for training and testing. 
+The path to each train image is written in a file called "train.txt", and 
+the test images in another file called "test.txt". The size of the image 
+fixed, to make the uniformity among images (both test and train). The application
+program, which calls these functions, have to adjust the size and type (gray scale) of the image.
 
  
